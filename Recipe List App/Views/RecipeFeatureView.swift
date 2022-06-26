@@ -57,7 +57,7 @@ struct RecipeFeatureView: View {
                                 //show the recipe detail view
                                 RecipeDetailView(recipe: model.recipes[index])
                             }
-                            .buttonStyle(PlainButtonStyle)
+                            
                             .frame(width: geo.size.width - 40, height: geo.size.height - 100, alignment: .center)
                                 .cornerRadius(20)
                                 .shadow(color: Color(.sRGB, red: 0, green: 0, blue: 0, opacity: 0.5), radius: 10, x: -5, y: 5)
